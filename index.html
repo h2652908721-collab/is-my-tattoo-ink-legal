@@ -1,0 +1,118 @@
+<!doctype html><html lang="zh-CN"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>墨法合规通 — 秒查纹身墨水合规，找到安全替代色</title>
+<style>
+:root{
+--ink:#0d1b2a;--ink2:#1b2b3f;--bg:#f5f8fb;--card:#ffffff;
+--navy:#13314f;--teal:#0e9488;--teal-d:#0b7d73;--safe:#0f9d6b;
+--muted:#5a6b7b;--line:#e3eaf1;--ring:rgba(14,148,136,.18)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{width:100%;max-width:980px;margin:0 auto;padding:0 20px}
+a{color:inherit}
+/* —— 手机优先:默认就是窄屏布局 —— */
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font-weight:800;font-size:1.15rem;letter-spacing:-.01em;display:flex;gap:7px;align-items:center}
+.logo .dot{width:22px;height:22px;border-radius:6px;background:linear-gradient(135deg,var(--teal),var(--navy));
+display:grid;place-items:center;color:#fff;font-size:.8rem}
+.nav-cta{background:var(--navy);color:#fff;padding:9px 16px;border-radius:9px;font-size:.85rem;
+text-decoration:none;font-weight:600;white-space:nowrap}
+.hero{padding:34px 0 8px}
+.badge{display:inline-flex;align-items:center;gap:6px;background:#e3f4f1;color:var(--teal-d);
+font-weight:600;font-size:.8rem;padding:6px 13px;border-radius:999px;margin-bottom:18px}
+h1{font-size:clamp(1.85rem,1.3rem+3.6vw,3.1rem);line-height:1.18;letter-spacing:-.02em;font-weight:820}
+h1 .hl{color:var(--teal-d)}
+.sub{font-size:clamp(1rem,.95rem+.5vw,1.2rem);color:var(--muted);margin:16px 0 26px}
+/* 表单:手机竖排,宽屏并排 */
+.form{display:flex;flex-direction:column;gap:10px;max-width:440px}
+.form input{width:100%;border:1.5px solid var(--line);border-radius:11px;padding:14px 16px;
+font-size:16px;outline:none;background:#fff}
+.form input:focus{border-color:var(--teal);box-shadow:0 0 0 4px var(--ring)}
+.form button{width:100%;background:linear-gradient(135deg,var(--teal),var(--teal-d));color:#fff;border:0;
+padding:15px 22px;border-radius:11px;font-size:1.02rem;font-weight:700;cursor:pointer}
+.cta-sub{font-size:.85rem;color:var(--muted);margin-top:12px;display:flex;gap:6px;align-items:flex-start}
+.trust-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:24px;padding-top:22px;border-top:1px solid var(--line)}
+.trust-row span{font-size:.82rem;color:var(--muted);display:flex;gap:6px;align-items:center}
+.trust-row b{color:var(--teal-d)}
+section{padding:40px 0}
+.eyebrow{color:var(--teal-d);font-weight:700;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px}
+h2{font-size:clamp(1.4rem,1.1rem+1.8vw,2.1rem);letter-spacing:-.02em;margin-bottom:22px;font-weight:780}
+.pains{display:grid;gap:12px}
+.pain{display:flex;gap:13px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+border-radius:13px;padding:16px 18px}
+.pain .x{flex:none;width:26px;height:26px;border-radius:50%;background:#fdecec;color:#d4504a;
+display:grid;place-items:center;font-weight:800;font-size:.9rem}
+.pain p{font-size:.98rem}
+.cards{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:22px}
+.card .tick{display:grid;place-items:center;width:34px;height:34px;border-radius:9px;background:#e3f4f1;
+color:var(--teal-d);font-weight:800;margin-bottom:12px}
+.card h3{font-size:1.08rem;margin-bottom:6px}
+.card p{color:var(--muted);font-size:.94rem}
+.steps{display:grid;gap:18px}
+.step{display:flex;gap:15px;align-items:flex-start}
+.step .sn{flex:none;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;
+display:grid;place-items:center;font-weight:800}
+.step .sc b{font-size:1.02rem}
+.step .sc p{color:var(--muted);font-size:.93rem;margin-top:2px}
+.proof{background:linear-gradient(135deg,var(--navy),var(--ink2));color:#eaf2f8;border-radius:18px;
+padding:32px 22px;text-align:center;margin:8px 0}
+.proof .tick{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:50%;
+background:rgba(14,148,136,.25);color:#5fe3d4;font-size:1.3rem;font-weight:800;margin-bottom:14px}
+.proof p{font-size:clamp(1.05rem,.9rem+1vw,1.35rem);font-weight:650;max-width:30ch;margin:0 auto;line-height:1.5}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:10px}
+summary{font-weight:650;cursor:pointer;font-size:1rem;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";color:var(--teal-d);font-weight:800;margin-right:10px}
+details[open] summary::before{content:"–"}
+details p{color:var(--muted);margin-top:10px;font-size:.95rem}
+.foot-cta{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px 22px;text-align:center;margin:8px 0}
+.foot-cta h2{margin-bottom:18px}
+.foot-cta .form{margin:0 auto}
+.seo{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px}
+.seo span{font-size:.8rem;color:var(--muted);background:var(--card);border:1px solid var(--line);
+padding:7px 12px;border-radius:999px;display:inline-block}
+footer{padding:30px 0 48px;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line);margin-top:32px}
+.disc{background:#fff8ec;border:1px solid #f4e3c1;color:#7a5c1e;border-radius:10px;
+padding:12px 14px;font-size:.82rem;margin-bottom:16px;line-height:1.55}
+/* —— 宽屏增强 —— */
+@media(min-width:680px){
+.hero{padding:56px 0 18px}
+.form{flex-direction:row;align-items:center}
+.form input{flex:1}
+.form button{width:auto;white-space:nowrap}
+.pains{grid-template-columns:1fr 1fr 1fr}
+.cards{grid-template-columns:1fr 1fr}
+section{padding:60px 0}
+}
+@media(min-width:980px){ .cards{grid-template-columns:repeat(4,1fr)} .steps{grid-template-columns:repeat(3,1fr)} }
+</style><script data-goatcounter="https://friday-lab.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head><body>
+<div class="wrap">
+<header><div class="logo"><span class="dot">✓</span>墨法合规通</div>
+<a class="nav-cta" href="#join">加入内测</a></header>
+<div class="hero">
+<span class="badge">🛡 秒查纹身墨水合规，找到安全替代色</span>
+<h1>你用的纹身墨水，在当地真的还合法吗？</h1>
+<p class="sub">输入墨水品牌和所在地，秒知道合不合规、有没有替代色</p>
+<div id="join"><form class="form" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="墨法合规通 — 新内测申请"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="留个邮箱,内测开放优先通知你"><button type="submit">加入内测 →</button></form></div>
+<p class="cta-sub">✓&nbsp;首批内测免费，帮我们反馈，后续享内测价折扣</p>
+<div class="trust-row">
+<span>🇦🇺 <b>官方政策</b>实时跟踪</span><span>🔒 案例<b>全脱敏</b></span><span>📋 <b>免费</b>内测</span>
+</div></div>
+<section><div class="eyebrow">你是不是也这样</div><h2>申请前最怕的几件事</h2>
+<div class="pains"><div class="pain"><span class="x">!</span><p>法规变更频繁，难以及时知道常用墨水在哪些地区被禁</p></div><div class="pain"><span class="x">!</span><p>品牌不透露成分和禁用地区，被禁后无法快速找合规替代</p></div><div class="pain"><span class="x">!</span><p>客户问合法性无官方参考，凭经验回答容易踩坑和失信</p></div></div></section>
+<section><div class="eyebrow">一站查清</div><h2>我们帮你把风险点摊开</h2>
+<div class="cards"><div class="card"><span class="tick">✓</span><h3>品牌合规快查</h3><p>输入品牌和地区，秒知合不合法</p></div><div class="card"><span class="tick">✓</span><h3>颜料禁用地图</h3><p>REACH等法规禁颜料标注，清晰看每色禁区</p></div><div class="card"><span class="tick">✓</span><h3>替代色速配</h3><p>被禁色自动匹配合规替代，保持配色一致</p></div><div class="card"><span class="tick">✓</span><h3>法规更新提醒</h3><p>REACH等多地法规更新实时同步，不漏禁令</p></div></div></section>
+<section><div class="eyebrow">三步上手</div><h2>怎么用</h2><div class="steps"><div class="step"><div class="sn">1</div><div class="sc"><b>搜索墨水品牌</b><p>输入你常用的纹身墨品牌名</p></div></div><div class="step"><div class="sn">2</div><div class="sc"><b>选择地区查询</b><p>选择你所在的司法区或销售地</p></div></div><div class="step"><div class="sn">3</div><div class="sc"><b>看合规状态</b><p>秒出合法/禁用/替代色，打印存档</p></div></div></div></section>
+<div class="proof"><span class="tick">✓</span><p>正在邀请纹身师和品牌方测试，共同完善法规对照库</p></div>
+<section><div class="eyebrow">常见问题</div><h2>你可能想问</h2><details><summary>数据多久更新一次？</summary><p>法规禁令实时同步，品牌成分库由社区驱动更新</p></details><details><summary>我的地区不在库里怎么办？</summary><p>常见地区优先覆盖，其他地区可定制或提交申请</p></details><details><summary>怎么保证数据准确？</summary><p>基于公开法规清单、品牌MSDS和官方信息，每条可溯源</p></details></section>
+<div class="foot-cta" id="join2"><h2>你用的纹身墨水，在当地真的还合法吗？</h2>
+<form class="form form-big" action="https://formsubmit.co/2734e0f49605680196bfc44f5cca0531" method="POST"><input type="hidden" name="_subject" value="墨法合规通 — 新内测申请"><input type="hidden" name="_captcha" value="false"><input type="hidden" name="_template" value="table"><input type="email" name="email" required placeholder="留个邮箱,内测开放优先通知你"><button type="submit">加入内测 →</button></form>
+<p class="cta-sub" style="justify-content:center">✓&nbsp;首批内测免费，帮我们反馈，后续享内测价折扣</p></div>
+<div class="seo"><span>Blue 15纹身墨水在欧盟禁用，有哪些合规替代色</span><span>2025年REACH新禁颜料清单，纹身墨水合规检查</span><span>Green 7禁用后，纹身师怎么选择替代颜料</span><span>澳大利亚纹身墨水法规，常用品牌合规对比</span><span>美国FDA纹身墨水要求，进口商合规指南</span><span>纹身色料成分对照表，全球禁用颜料地图</span></div>
+<footer><div class="disc">⚠️ 本库为信息参考工具，不构成法律意见，纹身墨水合规性因地区而异，最终以官方法规和品牌商信息为准</div>© 墨法合规通 · 内测招募中 · 这是一个需求验证页</footer>
+</div></body></html>
