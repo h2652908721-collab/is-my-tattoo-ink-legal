@@ -1,0 +1,70 @@
+{
+  "brand": "InkCompliance",
+  "tagline": "Instantly check tattoo ink compliance, find approved alternatives",
+  "hero_headline": "Is your tattoo ink actually legal where you operate?",
+  "hero_sub": "Enter your ink brand and location — instantly check compliance status and discover approved alternatives",
+  "pains": [
+    "Regulations shift constantly — impossible to track which inks are restricted in which regions",
+    "Ink brands don't disclose ingredients or regional restrictions, leaving you unable to pivot to approved options",
+    "You can't confidently answer clients about ink legality without official sources, risking trust and reputation"
+  ],
+  "features": [
+    {
+      "title": "Brand Compliance Lookup",
+      "desc": "Enter a brand and jurisdiction, instantly see legal status"
+    },
+    {
+      "title": "Pigment Ban Map",
+      "desc": "REACH and regulatory pigment bans clearly marked by color and region"
+    },
+    {
+      "title": "Instant Approved Alternatives",
+      "desc": "Banned colors auto-matched to compliant replacements that maintain design aesthetic"
+    },
+    {
+      "title": "Real-Time Regulatory Updates",
+      "desc": "REACH, FDA, and regional bans sync live — never miss a regulatory change"
+    }
+  ],
+  "how": [
+    {
+      "step": "Search your ink brand",
+      "desc": "Enter the tattoo ink brand you use regularly"
+    },
+    {
+      "step": "Select your region",
+      "desc": "Choose your jurisdiction or sales market"
+    },
+    {
+      "step": "View compliance status",
+      "desc": "See legal/banned/approved alternative instantly — printable records included"
+    }
+  ],
+  "proof": "Currently partnering with tattoo artists and ink manufacturers to build a comprehensive regulatory database together",
+  "cta": "Join Beta →",
+  "cta_sub": "✓ First batch free, help us improve, get lifetime founder pricing",
+  "faq": [
+    {
+      "q": "How often is the compliance data updated?",
+      "a": "Regulatory bans sync in real-time; brand ingredient database community-driven"
+    },
+    {
+      "q": "What if my region isn't covered yet?",
+      "a": "Common jurisdictions covered first, others available on request or custom lookup"
+    },
+    {
+      "q": "How accurate is the compliance data?",
+      "a": "Based on public regulatory documents, brand MSDS sheets, and official sources — every entry traceable"
+    }
+  ],
+  "seo_pages": [
+    "Blue 15 banned EU tattoo ink — approved pigment alternatives",
+    "2025 REACH pigment bans — tattoo ink compliance checklist",
+    "Green 7 discontinued — finding approved tattoo pigment replacements",
+    "Australia tattoo ink regulations — major brands compliance guide",
+    "US FDA tattoo ink requirements — importer compliance steps",
+    "Tattoo pigment ingredient reference — global restriction map"
+  ],
+  "disclaimer": "⚠️ Information reference tool only, not legal advice. Tattoo ink compliance varies by jurisdiction. Always verify against official regulatory sources and manufacturer information",
+  "lang": "en"
+}
